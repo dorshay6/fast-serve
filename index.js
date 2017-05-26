@@ -5,13 +5,12 @@ const chalk = require('chalk');
 const express = require('express');
 const packege = require('./package.json')
 const app = express();
-var path = require('path');
 
 program
   .version(packege.version)
   .option('-C, --chdir <path>', 'change the working directory')
-  .option('-p, --port [optional]','optional port to serve files')
-  .parse(process.argv); // end with parse to parse through the input
+  .option('-p, --port [optional]','optional port to serve files, defults to 8080')
+  .parse(process.argv);
 
 const filePath = program.chdir || process.cwd();
 app.use(express.static(filePath))
