@@ -5,9 +5,15 @@ I use it in order to test my `build` folder after webpack build.
 
 ## Install
 
-Just run
 ```
 npm i -g fast-serve
+```
+
+## Usage
+```
+$ fast-serve
+App listening on port: 8080
+  -> Serving : /Users/dorshay/work/cars
 ```
 
 ## Help

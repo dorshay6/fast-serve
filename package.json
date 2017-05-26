@@ -1,6 +1,6 @@
 {
   "name": "fast-serve",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Serve static files from folder",
   "main": "index.js",
   "scripts": {
