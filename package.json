@@ -1,0 +1,33 @@
+{
+  "name": "fast-serve",
+  "version": "1.0.0",
+  "description": "Serve static files from folder",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "serve",
+    "static",
+    "express"
+  ],
+  "author": "Dor Shay",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "commander": "^2.9.0",
+    "express": "^4.15.3"
+  },
+  "bin": {
+    "fast-serve": "./index.js"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dorshay6/fast-serve.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dorshay6/fast-serve/issues"
+  },
+  "homepage": "https://github.com/dorshay6/fast-serve#readme"
+}
