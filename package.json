@@ -1,6 +1,6 @@
 {
   "name": "fast-serve",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Serve static files from folder",
   "main": "index.js",
   "scripts": {
@@ -9,7 +9,9 @@
   "keywords": [
     "serve",
     "static",
-    "express"
+    "express",
+    "cli",
+    "webpack"
   ],
   "author": "Dor Shay",
   "license": "ISC",

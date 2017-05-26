@@ -1,5 +1,8 @@
 # Fast Serve 🚀
 
+Fast serve will help you serve static files fast and easy.
+I use it in order to test my `build` folder after webpack build.
+
 ```
 fast-serve --help  
 
